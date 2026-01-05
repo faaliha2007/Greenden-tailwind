@@ -5,7 +5,7 @@ The project is fully responsive and designed with a clean and modern user interf
 
 ## 👀 Live View
 You can view the website here:  
-🔗 {       }
+🔗 https://faaliha2007.github.io/Greenden-tailwind/
 
 ## 📄 Pages
 - **Home Page** – Includes navbar, hero section, about, best sellers, customer reviews, newsletter, and footer  
