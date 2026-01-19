@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link href=" https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css " rel="stylesheet">
+</head>
+
+<body>
+
+    <!--navbar-->
+    <section>
+        <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
+            <h1 class="text-2xl font-bold">Greenden</h1>
+
+        <p id="navicon" class="md:hidden cursor-pointer">☰</p>
+
+
+            <ul class="flex gap-5 text-gray-600 hidden md:flex">
+                <li> <a class="hover:underline hover:text-black" href="index.html"> Home</a> </li>
+                <li> <a class="hover:underline hover:text-black" href="products.html"> Products</a> </li>
+                <li> <a class="hover:underline hover:text-black" href="contact.html"> Contact</a> </li>
+            </ul>
+        </nav>
+    </section>
+
+
+    <!--header-->
+    <section>
+
+        <h1 class="font-bold text-3xl text-center mt-5">Our Products</h1>
+        <div class="text-center m-5">
+            <input type="text" placeholder="Search for products...." id="search" class="border border-black p-2"
+                style="width: 80%;">
+        </div>
+    </section>
+
+    
+<!--resnavbar-->
+    <section id="resnav" class="bg-green-100  top-0  fixed z-20 transform transition-all duration-1000" style="width:50%; height:100vh; right:-50%">
+        <div id="cross" class="text-right p-5">
+            <p id="closetag" class="inline font-bold cursor-pointer hover:text-red-500">X</p>
+        </div>
+        <ul class="flex flex-col gap-10 text-center text-gray-600  md:flex">
+            <li> <a class="hover:underline hover:text-green-700" href="index.html"> Home</a> </li>
+            <li> <a class="hover:underline hover:text-green-700" href="products.html"> Products</a> </li>
+            <li> <a class="hover:underline hover:text-green-700" href="contact.html"> Contact</a> </li>
+        </ul>
+    </section>
+
+    <!--img-container-->
+    <section class="p-1 text-center">
+        <div id="product-container">
+        <div class="grid grid-cols-2 md:grid-cols-4 mt-5 gap-8 md:gap-5">
+
+
+            <div class="product p-4 rounded shadow-xl hover:shadow-2xl hover:scale-105 transform transition duration-300">
+                <img src="./pro1.png" class="inline rounded-lg w-full">
+                <p>Lavender Plant</p>
+                <p class="text-green-700 font-bold">$20</p>
+                
+                    <button class="font-semibold w-full border border-green-500 bg-green-500 text-white p-2 rounded-lg hover:bg-green-600 hover:scale-105 transform transition duration-300">Add to cart</button>
+
+            </div>
+
+            <div class="product p-4 rounded shadow-xl hover:shadow-2xl hover:scale-105 transform transition duration-300">
+                <img src="./pro2.png" class="inline rounded-lg w-full">
+                <p class="font-medium">Pink Plant</p>
+                <p class="text-green-700 font-bold">$20</p>
+                 <button class="font-semibold w-full border border-green-500 bg-green-500 text-white p-2 rounded-lg hover:bg-green-600 hover:scale-105 transform transition duration-300">Add to cart</button>
+            </div>
+
+            <div class="product p-4 rounded shadow-2xl hover:scale-105 hover:shadow-2xl transform transition duration-300">
+                <img src="./pro3.png" class="inline w-full rounded-lg">
+                <p class="font-medium">Garden Plant</p>
+                <p class="text-green-700 font-bold">$20</p>
+                 <button class="font-semibold w-full border border-green-500 bg-green-500 text-white p-2 rounded-lg hover:bg-green-600 hover:scale-105 transform transition duration-300">Add to cart</button>
+            </div>
+
+            <div class="product p-4 rounded shadow-xl hover:shadow-2xl hover:scale-105 transform transition duration-300">
+                <img src="./pro4.png" class="inline rounded-lg w-full">
+                <p class="font-medium">Lilly Plant</p>
+                <p class="text-green-700 font-bold">$20</p>
+                 <button class="font-semibold w-full border border-green-500 bg-green-500 text-white p-2 rounded-lg hover:bg-green-600 hover:scale-105 transform transition duration-300">Add to cart</button>
+            </div>
+
+
+
+        </div>
+        <!--2nd row-->
+
+        <div class="grid grid-cols-2 md:grid-cols-4 mt-5 gap-8">
+
+
+            <div class="product p-4 rounded shadow-xl hover:shadow-2xl hover:scale-105 transform transition duration-300 product">
+                <img src="./pro6.png" class="inline rounded-lg w-full">
+                <p class="font-medium">Tulips Plant</p>
+                <p class="text-green-700 font-bold">$20</p>
+                 <button class="font-semibold w-full border border-green-500 bg-green-500 text-white p-2 rounded-lg hover:bg-green-600 hover:scale-105 transform transition duration-300">Add to cart</button>
+            </div>
+
+            <div class="product p-4 rounded shadow-xl hover:shadow-2xl hover:scale-105 transform transition duration-300 product">
+                <img src="./pro5.png" class="inline rounded-lg w-full">
+                <p class="font-medium">Jasmine Plant</p>
+                <p class="text-green-700 font-bold">$20</p>
+                 <button class="font-semibold w-full border border-green-500 bg-green-500 text-white p-2 rounded-lg hover:bg-green-600 hover:scale-105 transform transition duration-300">Add to cart</button>
+            </div>
+
+        <div class="product p-4 rounded shadow-xl hover:shadow-2xl hover:scale-105 transform transition duration-300 product">
+                <img src="./pro7.png" class="inline rounded-lg w-full">
+                <p class="font-medium">Red Plant</p>
+                <p class="text-green-700 font-bold">$20</p>
+                <button class="font-semibold w-full border border-green-500 bg-green-500 text-white p-2 rounded-lg hover:bg-green-600 hover:scale-105 transform transition duration-300">Add to cart</button>
+            </div>
+
+         <div class="product p-4 rounded shadow-xl hover:shadow-2xl hover:scale-105 transform transition duration-300 product">
+                <img src="./pro8.png" class="inline rounded-lg w-full">
+                <p class="font-medium">Lilly Plant</p>
+                <p class="text-green-700 font-bold">$20</p>
+                 <button class="font-semibold w-full border border-green-500 bg-green-500 text-white p-2 rounded-lg hover:bg-green-600 hover:scale-105 transform transition duration-300">Add to cart</button>
+            </div>
+
+
+
+        </div>
+        </div>
+
+    </section>
+    <!--footer-->
+    <section class="bg-green-100 flex flex-col gap-5 p-10 mt-5">
+        <h1 class="text-4xl font-bold">Greenden</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, corrupti</p>
+        <p>@ 2026 Greenden.com</p>
+
+
+
+    </section>
+    <script src="product.js"></script>
+</body>
+
+</html>
